@@ -29,7 +29,7 @@ PLAY/PAUSE   = you get the idea
 GOD MODE     = single player is invincible
 
 Author: Weikang Sun
-Date 6/26
+Date: 6/26/15
 
 CodeSkulptor source:
 http://www.codeskulptor.org/#user40_pZgVJntu9RrQx3h.py

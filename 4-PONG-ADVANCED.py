@@ -5,6 +5,13 @@ of Pong you will see on CodeSkulptor
 NOTE: may consume a lot of memory on your computer
 try restarting the game or app once in a while
 
+NOTE 2: In order to experience the full game
+please make sure to have Quicktime or a supporting
+audio device enabled on your browser!
+
+Note 3: To stop the soundtrack from playing,
+press the Reset button (left-arrow) at the top of this window
+
 MULTI PLAYER  = two players (W/S for player 1, UP/DOWN for player 2)
 SINGLE PLAYER = one player (UP/DOWN)
 
@@ -25,7 +32,7 @@ Author: Weikang Sun
 Date 6/26
 
 CodeSkulptor source:
-http://www.codeskulptor.org/#user40_gWnwtWj2Zzyvh9l_0.py
+http://www.codeskulptor.org/#user40_pZgVJntu9RrQx3h.py
 """
 
 # Implementation of classic arcade game Pong

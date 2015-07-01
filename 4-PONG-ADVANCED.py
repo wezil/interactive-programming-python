@@ -2,6 +2,8 @@
 The most ridiculous implementation
 of Pong you will see on CodeSkulptor
 
+Update 7/1/15: Made all Ahnold voice clips permalinks on Dropbox
+
 NOTE: may consume a lot of memory on your computer
 try restarting the game or app once in a while
 
@@ -32,7 +34,7 @@ Author: Weikang Sun
 Date: 6/26/15
 
 CodeSkulptor source:
-http://www.codeskulptor.org/#user40_pZgVJntu9RrQx3h.py
+http://www.codeskulptor.org/#user40_p8Kkby9xWV_0.py
 """
 
 # Implementation of classic arcade game Pong
@@ -86,29 +88,29 @@ DEBUG = False
 
 # CPU lose sounds
 # WHO ARE YOU
-URL_SOUNDS_LOSE = ["http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/collateral_damage/collateral_damage_no.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movie_stars/schwarzenegger/mother_talk.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/kindergarten_cop/stop_it.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movie_stars/schwarzenegger/sob.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movie_stars/schwarzenegger/fist.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t3_dont_do_dat.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/total_recall/who_are_you.wav",
-                   "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t1_be_back.wav"]
+URL_SOUNDS_LOSE = ["http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/collateral_damage_no.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/mother_talk.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/stop_it.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/sob.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/fist.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/t3_dont_do_dat.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/who_are_you.mp3",
+                   "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/lose/t1_be_back.mp3"]
 # CPU win sounds
 # HASTA LA VISTA BABY
-URL_SOUNDS_WIN = ["http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/kindergarten_cop/daddy.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/kindergarten_cop/lack_discipline.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/kindergarten_cop/stop_whining_x.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movie_stars/schwarzenegger/police.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movie_stars/schwarzenegger/whats_the_matter.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t1_excellent.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t2_hasta_la_vista.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t2_no_problemo.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t1_get_out.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t1_clothes_x.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t3_hand.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t3_terminated.wav",
-                  "http://www.wavsource.com/snds_2015-06-21_1242597539702378/movies/terminator/t3_destiny.wav"]
+URL_SOUNDS_WIN = ["http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/daddy.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/lack_discipline.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/stop_whining_x.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/police.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/whats_the_matter.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t1_excellent.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t2_hasta_la_vista.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t2_no_problemo.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t1_get_out.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t1_clothes_x.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t3_hand.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t3_terminated.mp3",
+                  "http://dl.dropboxusercontent.com/u/10637386/CodeSkulptor%20Files/ahnold%20sounds/win/t3_destiny.mp3"]
 
 # theme from terminator 2
 # IT IS INEVITABLE
